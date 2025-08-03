@@ -505,7 +505,7 @@ export const projects = [
     id: "project-10",
     title: "Portfolio",
     github: "https://github.com/Somzee5/Portfolio",
-    link: "https://soham-patil-portfolio.netlify.app/",
+    link: "https://sohamportfolio.onrender.com/",
     image: portfolio,
     content: "Personal Portfolio Website",
     stack: [
