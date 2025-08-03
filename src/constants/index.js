@@ -87,6 +87,7 @@ import {
   SiNodedotjs,
   SiSqlite,
   SiOpencv,
+  SiZoom,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -100,7 +101,7 @@ import { VscAzure } from "react-icons/vsc";
 import { BiLogoVisualStudio } from "react-icons/bi";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1vx-QuWY1mJK9QXuzVbCVeUS_Ia9rCOd5/view?usp=sharing";
+  "https://drive.google.com/file/d/17mXDB_i12ANCdMwA7cwBurFplMPpCfkK/view";
 export const repoLink = "https://github.com/Somzee5";
 
 export const callToAction = "https://www.linkedin.com/in/soham-patil-344aa1264/";
@@ -377,17 +378,17 @@ export const projects = [
   },
   {
     id: "project-2",
-    title: "Kosh SDK",
-    github: "https://github.com/mittal-parth/kosh-sdk",
-    link: "https://ethglobal.com/showcase/kosh-hk3mp",
+    title: "Medico",
+    github: "https://github.com/Somzee5/Medico",
+    link: "https://medico-imgg.onrender.com/",
     image: kosh,
     content:
-      "Simple and secure way to interact with remote MCP Servers in Trusted Execution Environments (TEEs). Built at ETHGlobal Trifecta Hackathon.",
+      "Medico is a unified digital healthcare platform designed to simplify and enhance the patient experience. It enables users to book doctor appointments with instant Zoom consultations, find and book ambulances with real-time tracking via Google Maps, and securely manage medical records and prescription --> all in one place.",
     stack: [
       {
         id: "icon-2",
-        icon: SiTypescript,
-        name: "Typescript",
+        icon: SiReact,
+        name: "React.js",
       },
       {
         id: "icon-2",
@@ -396,32 +397,116 @@ export const projects = [
       },
       {
         id: "pl-2",
-        icon: SiPython,
-        name: "Python",
+        icon: SiMongodb,
+        name: "MongoDB",
+      },
+      {
+        id: "pl-3",
+        icon: SiExpress,
+        name: "Express.js",
+      },
+      {
+        id: "pl-2",
+        icon: SiNodedotjs,
+        name: "Node.js",
+      },
+      {
+        id: "pl-2",
+        icon: SiZoom,
+        name: "Zoom",
+      },
+      {
+        id: "pl-2",
+        icon: SiGooglemaps,
+        name: "Google Maps",
       },
     ],
   },
   {
     id: "project-3",
-    title: "Polkadot Dev CLI",
-    github: "https://github.com/mittal-parth/polkadot-dev-cli",
-    link: "https://crates.io/crates/polkadot-dev-cli",
+    title: "ScoreZilla",
+    github: "https://github.com/Somzee5/Scorezilla",
     image: polkadot_dev_cli,
     content:
-      "CLI tool for Polkadot developers bundling linting, formatting, and version management. cargo install polkadot-dev-cli.",
+      "Scorezilla — A modern web platform for managing sports tournaments with real-time leaderboards, QR-based team joining, automated certificates, and sponsor analytics.",
+    stack: [
+      {
+        id: "icon-2",
+        icon: SiReact,
+        name: "React.js",
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS",
+      },
+      {
+        id: "pl-2",
+        icon: SiMongodb,
+        name: "MongoDB",
+      },
+      {
+        id: "pl-3",
+        icon: SiExpress,
+        name: "Express.js",
+      },
+      {
+        id: "pl-2",
+        icon: SiNodedotjs,
+        name: "Node.js",
+      },
+      {
+        id: "pl-2",
+        icon: SiGooglemaps,
+        name: "Google Maps",
+      },
+      {
+        id: "pl-2",
+        icon: SiCloudinary,
+        name: "Cloudinary",
+      }
+    ],
+  },
+  {
+    id: "project-4",
+    title: "Vlogify",
+    github: "https://github.com/Somzee5/Vlogify",
+    image: devfolio,
+    content:
+      "Scorezilla — A modern web platform for managing sports tournaments with real-time leaderboards, QR-based team joining, automated certificates, and sponsor analytics.",
     stack: [
       {
         id: "icon-1",
-        icon: FaRust,
-        name: "Rust",
+        icon: SiDjango,
+        name: "Django",
+      },
+      {
+        id: "icon-2",
+        icon: SiSqlite,
+        name: "SQLite",
+      },
+      {
+        id: "icon-3",
+        icon: SiReact,
+        name: "React.js",
+      },
+      {
+        id: "icon-4",
+        icon: SiTailwindcss,
+        name: "TailwindCSS",
+      },
+      {
+        id: "icon-5",
+        icon: SiPostman,
+        name: "Postman",
       },
     ],
   },
   {
     id: "project-10",
     title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
+    github: "https://github.com/Somzee5/Portfolio",
+    link: "https://soham-patil-portfolio.netlify.app/",
     image: portfolio,
     content: "Open source developer portfolio template with modern UI/UX. 125+ stars on GitHub.",
     stack: [
@@ -620,38 +705,38 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/in/soham-patil-344aa1264/",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://www.github.com/Somzee5",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:mittalparth22@gmail.com",
+    link: "mailto:soham.patil@example.com",
   },
   {
     id: "social-media-4",
     icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
+    link: "https://www.twitter.com/soham_patil",
   },
   {
     id: "social-media-5",
     icon: AiFillInstagram,
-    link: "https://www.instagram.com/mittalparth_",
+    link: "https://www.instagram.com/soham_patil",
   },
 ];
 
 // Your professional summary
 export const aboutMe = {
-  name: "Parth Mittal",
-  githubUsername: "mittal-parth",
+  name: "Soham Patil",
+  githubUsername: "Somzee5",
   tagLine:
-    "MTS-1 @Oracle | ex-Tech Lead @IRIS,NITK | ETHIndia'22,24 Winner | 9x Hackathon Winner | NITK'24 | PBA-5",
+    "Computer Science Student | Web Developer | AI Enthusiast | Fresh Graduate",
   intro:
-    "Software Developer from India who is either busy improving his craft or pondering over the next big idea.",
+    "Computer Science student from India passionate about web development, AI, and creating innovative solutions.",
 };
 
 // The maximum number of PRs to be displayed in the Open Source Contributions section.
