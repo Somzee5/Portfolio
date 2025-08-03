@@ -1,5 +1,5 @@
 import axios from "axios";
-import { aboutMe, itemsToFetch, includedRepos } from "../constants";
+import { aboutMe } from "../constants";
 
 export const scrollToSection = (id) => {
   const element = document.getElementById(id);
@@ -30,64 +30,6 @@ const parseOriginFromUrl = (url) => {
   };
 };
 
-export async function fetchContributionsWithRetry(maxRetries = 1) {
-  let attempts = 0;
+// Open source retry function removed - no longer needed
 
-  while (attempts <= maxRetries) {
-    try {
-      const result = await fetchContributions();
-      return result;
-    } catch (error) {
-      attempts++;
-      console.log(`Attempt ${attempts} failed: ${error.message}. Retrying...`);
-
-      if (attempts > maxRetries) {
-        console.log("Max retries reached. Returning last error.");
-        return { error: error.message };
-      }
-    }
-  }
-}
-
-function generatePRQuery(repos, username) {
-  const queries = repos
-    .map((repo) => {
-      return `repo:${repo} is:pr author:${username}`;
-    })
-    .join(" ");
-
-  return `
-    query {
-      search(query: "${queries}", type: ISSUE, first: ${itemsToFetch}) {
-        nodes {
-          ... on PullRequest {
-            id
-            title
-            state
-            number
-            createdAt
-            url
-            additions
-            deletions
-          }
-        }
-      }
-    }
-  `;
-}
-
-export async function fetchContributions() {
-  try {
-    // Use the Netlify function to fetch contributions
-    // to avoid exposing the Github token into the client side build output
-    const response = await axios.post('/.netlify/functions/fetchContributions', {
-      repos: includedRepos,
-      username: aboutMe.githubUsername
-    });
-
-    return response.data;
-  } catch (error) {
-    console.error("Error fetching contributions from Netlify function: ", error);
-    throw error;
-  }
-}
+// Open source functions removed - no longer needed

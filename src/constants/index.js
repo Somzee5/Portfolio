@@ -716,12 +716,12 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/soham_patil",
+    link: "https://x.com/Sohamzee5",
   },
   {
     id: "social-media-5",
     icon: AiFillInstagram,
-    link: "https://www.instagram.com/soham_patil",
+    link: "https://www.instagram.com/sohamp_16",
   },
 ];
 
@@ -730,7 +730,7 @@ export const aboutMe = {
   name: "Soham Patil",
   githubUsername: "Somzee5",
   tagLine:
-    "Computer Science Student | Web Developer | AI Enthusiast | Fresh Graduate",
+    "Computer Science Student | Web Developer | AI Enthusiast | Undergraduate",
   intro:
     "Computer Science student from India passionate about web development, AI, and creating innovative solutions.",
 };
