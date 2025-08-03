@@ -2,7 +2,8 @@ import styles from "../style";
 import LetsConnect from "./LetsConnect";
 import Lottie from "react-lottie-player";
 import animationData from "../lotties/person-coding.json";
-import { aboutMe } from "../constants";
+import { aboutMe, resumeLink } from "../constants";
+import { AiOutlineDownload } from "react-icons/ai";
 
 
 // lottie config
@@ -16,6 +17,17 @@ const defaultOptions = {
 };
 
 const Hero = () => {
+  const handleResumeDownload = () => {
+    // Create a temporary link element to trigger download
+    const link = document.createElement('a');
+    link.href = resumeLink;
+    link.download = 'Soham_Patil_Resume.pdf'; // Set the filename
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section
       id="home"
@@ -42,6 +54,17 @@ const Hero = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           {aboutMe.intro}
         </p>
+        
+        {/* Resume Download Button */}
+        <div className="mt-8">
+          <button
+            onClick={handleResumeDownload}
+            className="flex items-center gap-2 bg-gradient-to-r from-teal-400 to-blue-500 hover:from-teal-500 hover:to-blue-600 text-white font-poppins font-semibold text-[16px] px-8 py-4 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
+          >
+            <AiOutlineDownload size={20} />
+            Download Resume
+          </button>
+        </div>
       </div>
 
       <div
