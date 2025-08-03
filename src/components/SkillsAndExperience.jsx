@@ -1,7 +1,8 @@
 import React from "react";
-import { experiences, skills } from "../constants";
+import { skills } from "../constants";
 import { layout } from "../style";
 import { motion } from "framer-motion";
+import { BsLink45Deg } from "react-icons/bs";
 
 export const SkillIcon = ({ icon, name }) => {
   return (
@@ -102,7 +103,7 @@ const SkillsAndExperience = () => {
   return (
     <section id="skills" className="mb-12">
       <h1 className="flex-1 font-poppins font-semibold ss:text-[55px] text-[45px] text-white ss:leading-[80px] leading-[80px]">
-        Skills & Experience
+        Skills
       </h1>
       <div
         className={layout.section}
@@ -113,13 +114,6 @@ const SkillsAndExperience = () => {
         <motion.div className={`ml-2 mb-6 ${layout.sectionInfo}`}>
           {skills.map((skill, index) => (
             <SkillCard key={index} index={index} {...skill} />
-          ))}
-        </motion.div>
-
-        {/* Experience */}
-        <motion.div className="flex flex-1 items-center justify-start flex-col">
-          {experiences.map((exp, index) => (
-            <ExperienceCard key={index} index={index} {...exp} />
           ))}
         </motion.div>
       </div>

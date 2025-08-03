@@ -80,6 +80,13 @@ import {
   SiTypescript,
   SiClaude,
   SiOracle,
+  SiRender,
+  SiCloudinary,
+  SiMongodb,
+  SiExpress,
+  SiNodedotjs,
+  SiSqlite,
+  SiOpencv,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -101,7 +108,7 @@ export const callToAction = "https://www.linkedin.com/in/soham-patil-344aa1264/"
 export const navLinks = [
   {
     id: "skills",
-    title: "Skills & Experience",
+    title: "Skills",
   },
   {
     id: "education",
@@ -185,7 +192,7 @@ export const achievements = [
   },
 ];
 
-// Add your software developments skills here for example - programming languages, frameworks etc.
+// Add your software development skills here for example - programming languages, frameworks etc.
 export const skills = [
   {
     title: "Programming Languages",
@@ -199,11 +206,6 @@ export const skills = [
         id: "pl-3",
         icon: SiCplusplus,
         name: "C++",
-      },
-      {
-        id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
       },
       {
         id: "pl-6",
@@ -230,11 +232,6 @@ export const skills = [
         icon: SiJavascript,
         name: "JavaScript",
       },
-      {
-        id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
     ],
   },
   {
@@ -247,54 +244,34 @@ export const skills = [
       },
       {
         id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "f-3",
         icon: SiReact,
         name: "ReactJS",
       },
       {
+        id: "f-3",
+        icon: SiExpress,
+        name: "Express.js",
+      },
+      {
         id: "f-4",
+        icon: SiNodedotjs,
+        name: "Node.js",
+      },
+      {
+        id: "f-5",
         icon: SiBootstrap,
         name: "Bootstrap",
       },
       {
-        id: "f-5",
+        id: "f-6",
         icon: SiTailwindcss,
         name: "Tailwind CSS",
-      },
-      {
-        id: "f-6",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-      {
-        id: "f-7",
-        icon: SiGraphql,
-        name: "GraphQL",
-      },
-      {
-        id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
       },
     ],
   },
   {
-    title: "Tools",
+    title: "Tools & Platforms",
     items: [
-      {
-        id: "t-1",
-        icon: SiOracle,
-        name: "Oracle Cloud",
-      },
-      {
-        id: "t-1",
-        icon: VscAzure,
-        name: "Azure",
-      },
       {
         id: "t-2",
         icon: SiMysql,
@@ -302,170 +279,79 @@ export const skills = [
       },
       {
         id: "t-3",
+        icon: SiMongodb,
+        name: "MongoDB",
+      },
+      {
+        id: "t-4",
+        icon: SiSqlite,
+        name: "SQLite",
+      },
+      {
+        id: "t-5",
         icon: SiPostman,
         name: "Postman",
       },
       {
-        id: "t-4",
+        id: "t-6",
+        icon: SiOpencv,
+        name: "OpenCV",
+      },
+      {
+        id: "t-7",
         icon: BiLogoVisualStudio,
         name: "VS Code",
       },
       {
-        id: "t-5",
+        id: "t-8",
         icon: SiGit,
         name: "Git",
       },
       {
-        id: "t-6",
+        id: "t-9",
         icon: AiFillGithub,
         name: "GitHub",
       },
       {
-        id: "t-7",
-        icon: AiOutlineGitlab,
-        name: "Gitlab",
-      },
-      {
-        id: "t-8",
-        icon: SiNetlify,
-        name: "Netlify",
-      },
-      {
-        id: "t-9",
+        id: "t-10",
         icon: SiVite,
         name: "ViteJS",
+      },
+      {
+        id: "t-11",
+        icon: SiRender,
+        name: "Render",
+      },
+      {
+        id: "t-12",
+        icon: SiCloudinary,
+        name: "Cloudinary",
       },
     ],
   },
 ];
 
-// Add your current/past professional work experience here
-export const experiences = [
-  {
-    organisation: "Oracle, India",
-    logo: oracle,
-    link: "https://www.oracle.com/in/",
-    positions: [
-      {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
-        content: [
-          {
-            text: "Working in the Database as a Service Control Plane team for Oracle Cloud Infrastructure.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
-        content: [
-          {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
-            link: "",
-          },
-          {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
-            link: "",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "Averlon",
-    logo: averlon,
-    link: "https://averlon.ai/",
-    positions: [
-      {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
-        content: [
-          {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
-            link: "",
-          },
-          {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-            link: "",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
-    positions: [
-      {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
-        content: [
-          {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-            link: "",
-          },
-          {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
-        content: [
-          {
-            text: "Managed a team of 6 student developers while also overlooking multiple modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
-        content: [
-          {
-            text: "Added Conditional Fields support to the Forms Module.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
-        content: [
-          {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
-            link: "",
-          },
-        ],
-      },
-    ],
-  },
-];
+// Experience section removed - keeping only skills section
 
 // Add information about all the projects to be listed out in your portfolio
 export const projects = [
   {
     id: "project-1",
-    title: "Khoj",
-    github: "https://github.com/marcdhi/Khoj",
-    link: "https://devfolio.co/projects/khoj-3336",
+    title: "DripSync",
+    github: "https://github.com/Somzee5/DripSync_Repo",
     image: khoj,
     content:
-      "Participate in AI-personalised treasure hunts where each clue is a physical location. Earn on-chain rewards and onboard a million users. Overall winning project at ETHIndia'24.",
+      "AI-powered outfit recommendations with virtual try-on and skin-tone based personalization",
     stack: [
       {
         id: "icon-1",
-        icon: SiSolidity,
-        name: "Solidity",
+        icon: SiDjango,
+        name: "Django",
       },
       {
         id: "icon-2",
-        icon: SiTypescript,
-        name: "Typescript",
+        icon: SiSqlite,
+        name: "SQLite",
       },
       {
         id: "icon-3",
@@ -479,8 +365,13 @@ export const projects = [
       },
       {
         id: "icon-5",
-        icon: SiClaude,
-        name: "Claude Sonnet",
+        icon: SiPostman,
+        name: "Postman",
+      },
+      {
+        id: "icon-6",
+        icon: SiOpencv,
+        name: "OpenCV",
       },
     ],
   },
@@ -523,216 +414,6 @@ export const projects = [
         id: "icon-1",
         icon: FaRust,
         name: "Rust",
-      },
-    ],
-  },
-  {
-    id: "project-4",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://devfolio.co/projects/comicifyai-97a6",
-    image: comicify_ai,
-    content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "icon-3",
-        icon: SiOpenai,
-        name: "OpenAI",
-      },
-      {
-        id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform",
-      },
-      {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask",
-      },
-    ],
-  },
-  {
-    id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
-    github: "",
-    link: "http://recruitment.nitk.ac.in/",
-    image: recruitment,
-    content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-    ],
-  },
-  {
-    id: "project-6",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
-    image: greentrust,
-    content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js",
-      },
-      {
-        id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS",
-      },
-      {
-        id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
-      },
-    ],
-  },
-  {
-    id: "project-7",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
-    image: chargeswap,
-    content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js",
-      },
-      {
-        id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat",
-      },
-      {
-        id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS",
-      },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino",
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
-      },
-    ],
-  },
-  {
-    id: "project-8",
-    title: "Samsotech Table Management System",
-    github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: placeicon,
-    content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6",
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server",
-      },
-      {
-        id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-      {
-        id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio",
-      },
-    ],
-  },
-  {
-    id: "project-9",
-    title: "Career Development Centre, NITK Website",
-    github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
-    content: "The official website of CDC, NITK with a custom built CMS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript",
       },
     ],
   },
