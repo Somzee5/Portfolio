@@ -37,6 +37,9 @@ import kosh from "./kosh.png";
 import polkadot_dev_cli from "./polkadot-dev-cli.png";
 import nkvc from "./nkvc.png";
 import wce from "./wce.jpg";
+import cube from "./cube.jpg";
+import volley1 from "./volley1.jpg";
+import volley2 from "./volley2.jpg";
 
 export {
   menu,
@@ -78,4 +81,7 @@ export {
   placeholder,
   nkvc,
   wce,
+  cube,
+  volley1,
+  volley2,
 };

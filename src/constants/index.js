@@ -32,6 +32,9 @@ import {
   polkadot_dev_cli,
   wce,
   nkvc,
+  cube,
+  volley1,
+  volley2,
 } from "../assets";
 
 
@@ -90,7 +93,7 @@ import {
   SiZoom,
 } from "react-icons/si";
 
-import { FaHardHat, FaRust } from "react-icons/fa";
+import { FaHardHat, FaRust, FaCube, FaVolleyballBall } from "react-icons/fa";
 
 import { IoIosNotificationsOutline } from "react-icons/io";
 
@@ -124,8 +127,8 @@ export const navLinks = [
     title: "Projects",
   },
   {
-    id: "extraCurricular",
-    title: "Extra Curricular",
+    id: "hobbies",
+    title: "Hobbies",
   },
   {
     id: "contactMe",
@@ -611,88 +614,31 @@ export const stats = [
   },
 ];
 
-// List out the extra curricular activities you have indulged in, like - student clubs, research groups etc.
-export const extraCurricular = [
+// List out your hobbies and interests
+export const hobbies = [
   {
     id: 1,
-    organisation: "Devfolio",
-    title: "UniDAO Lead",
-    duration: "December 2021 - Present",
-    content: [
-      {
-        text: "Selected among 5 students across the country to lead the initiative and grow the culture of Blockchain and Ethereum, powered by Devfolio.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7097977924686942209/",
-      },
-      {
-        text: "Led a cohort of 37 selected students over 6 weeks to learn and build in the Ethereum ecosystem.",
-        link: "https://www.linkedin.com/feed/update/urn:li:activity:7095310520282480641/",
-      },
+    title: "Rubik's Cube",
+    icon: FaCube,
+    image: cube,
+    description: "Mastered solving diverse Rubik's Cube variants with descent speed",
+    details: [
+      "Proficient in solving various cube sizes (2x2, 3x3, 4x4)",
+      "Competitive solving with consistent sub-30 second times",
+      "Knowledge of advanced solving methods and algorithms",
     ],
-    logo: devfolio,
   },
   {
     id: 2,
-    organisation: "Google Developer Student Club, NITK",
-    title: "Co-Chair",
-    duration: "December 2021 - Present",
-    content: [
-      {
-        text: "Started HackClub to promote and spread the culture of Hackathons in the college. 20+ hackathons particiaptions, 15+ wins over the year.",
-        link: "",
-      },
-      {
-        text: "Co-designed and developed the official website of Incident, NITK with 15K+ visitors",
-        link: "https://incident.nitk.ac.in/",
-      },
+    title: "Sports Participation",
+    icon: FaVolleyballBall,
+    image: volley1,
+    description: "Actively competed in college volleyball and cricket tournaments",
+    details: [
+      "Represented college in inter-college volleyball tournaments",
+      "Participated in cricket tournaments at district level",
+      "Maintained physical fitness through regular sports activities",
     ],
-    logo: gdsc,
-  },
-  {
-    id: 3,
-    organisation: "Genesis, NITK",
-    title: "Competitions Head",
-    duration: "Sep 2021 - Present",
-    content: [
-      {
-        text: "Qualified for the nationals of Indian Hip Hop Dance Championship",
-        link: "",
-      },
-      {
-        text: "Won 7 inter-college solo dance competitions",
-        link: "",
-      },
-    ],
-    logo: genesis,
-  },
-  {
-    id: 4,
-    organisation: "IRIS, NITK",
-    title: "Tutor",
-    duration: "Jan 2022 - Jan 2022",
-    content: [
-      {
-        text: "Mentored 150+ students in a month-long Web Development and Ruby on Rails Bootcamp",
-        link: "https://github.com/IRIS-NITK/IRIS-RoR-Bootcamp-2021",
-      },
-    ],
-    logo: iris,
-  },
-  {
-    id: 5,
-    organisation: "E-Cell, NITK",
-    title: "Executive Member",
-    duration: "Sep 2021 - Apr 2022",
-    content: [
-      {
-        text: "Organised the season 3 of the E-Cell NITK Podcast",
-        link: "https://www.youtube.com/watch?v=uA-Yrk6bVDc",
-      },
-      {
-        text: "Member of the Sponsorship and E-Talks team for E-Summit'22",
-        link: "",
-      },
-    ],
-    logo: ecell,
   },
 ];
 
