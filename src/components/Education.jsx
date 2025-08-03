@@ -28,7 +28,7 @@ const FeatureCard = ({
 	${index === educationList.length - 1 ? "mb-0" : "mb-6"} feature-card`}
   >
     <div
-      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
+      className={`w-16 h-16 rounded-full ${styles.flexCenter} bg-dimBlue`}
     >
       <img src={icon} alt="icon" className="w-[80%] h-[80%] object-contain" />
     </div>

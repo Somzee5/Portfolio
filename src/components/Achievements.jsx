@@ -103,7 +103,7 @@ const AchievementCard = (props) => {
       <img
         src={props.icon}
         alt={props.event}
-        className="w-[45px] h-[45px] rounded-full mt-1 mb-1"
+        className="w-16 h-16 rounded-full mt-1 mb-1"
       />
       <div className="flex flex-col justify-end mt-4 mb-1">
         <p className="font-poppins font-normal text-xl text-white leading-[24px] mb-2">

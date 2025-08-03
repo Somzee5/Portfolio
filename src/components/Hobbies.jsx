@@ -13,7 +13,7 @@ const HobbyCard = (props) => {
       transition={{ duration: 1 }}
     >
       <div className="flex flex-row items-center mb-4">
-        <div className="w-[52px] h-[52px] rounded-full bg-gradient-to-r from-teal-400 to-blue-500 flex items-center justify-center">
+        <div className="w-16 h-16 rounded-full bg-gradient-to-r from-teal-400 to-blue-500 flex items-center justify-center">
           <IconComponent className="text-white text-2xl" />
         </div>
         <div className="flex flex-col ml-4">
