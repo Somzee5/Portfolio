@@ -124,10 +124,6 @@ export const navLinks = [
     title: "Projects",
   },
   {
-    id: "openSource",
-    title: "Open Source",
-  },
-  {
     id: "extraCurricular",
     title: "Extra Curricular",
   },
@@ -715,7 +711,7 @@ export const socialMedia = [
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:soham.patil@example.com",
+    link: "mailto:sohampatil1665@gmail.com",
   },
   {
     id: "social-media-4",
@@ -739,12 +735,4 @@ export const aboutMe = {
     "Computer Science student from India passionate about web development, AI, and creating innovative solutions.",
 };
 
-// The maximum number of PRs to be displayed in the Open Source Contributions section.
-export const itemsToFetch = 20;
-
-// Add names of GitHub repos you'd like to display open source contributions from in the 'org/repo' format.
-export const includedRepos = [
-  "publiclab/plots2",
-  "zulip/zulip",
-  "paritytech/polkadot-sdk",
-];
+// Open Source section removed
