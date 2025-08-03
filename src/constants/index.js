@@ -153,109 +153,35 @@ export const achievements = [
   {
     id: "a-1",
     icon: ethindia,
-    event: "ETHIndia'24 | India's Largest Ethereum Hackathon",
-    position: "Winner",
-    content1: "Top 10 Overall Finalists/Winners, True Network's Winner",
-    content2: "Polkadot's 1st Runner Up, Lit Protocol's 2nd Runner Up",
-    content3: "Coinbase Pool Prize, Base Top 10",
+    event: "BitNBuild 2024 | GDSC-CRCE Bandra,Mumbai",
+    position: "Finalist",
+    content1: "Top 10 Overall Finalists",
+    content2: "State qualifers among 103 teams",
     article:
-      "https://www.linkedin.com/posts/mittal-parth_super-stoked-to-announce-that-our-team-emerged-activity-7274735259621961729-tkq4?utm_source=share&utm_medium=member_desktop",
-    project: "https://devfolio.co/projects/khoj-3336",
-    youtube:
-      "https://www.youtube.com/live/qJ4OCtnvjUY?si=VkcnHEdwJTEEDlMg&t=4718",
+      "https://www.linkedin.com/posts/soham-patil-344aa1264_hackathon-bitnbuild-thecodecrew-activity-7257093370861268993-Zaxy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDx6qQBXoQTbcrLBCC3D_5QU-RAEQbdZ50",
+    project: "https://github.com/Somzee5/Scorezilla",
   },
   {
     id: "a-2",
     icon: ethglobal,
-    event: "ETHIndia'22 | World's Largest Ethereum Hackathon",
+    event: "Codecrush | A competitive coding competition at TechFusion-2024",
     position: "Winner",
-    content1: "Top 12 Winners among 20k+ registrations",
-    content2: "One of Polygon's Best Public Goods",
-    content3: "Best Module on Biconomy SDK",
+    content1: "Solved 4/6 questions under timebound",
+    content2: "Conducted on hackerEarth",
     article:
-      "https://www.thehindu.com/news/cities/Mangalore/nitk-iiit-delhi-team-makes-it-to-top-12-winners-in-ethindia-22/article66238923.ece",
-    project: "https://devfolio.co/projects/chargeswap-3527",
-    youtube: "https://youtu.be/9rieTya8Yds?t=3908",
+      "https://www.linkedin.com/posts/soham-patil-344aa1264_techfusion2k24-problemsolving-hackerearth-activity-7251272290884050944-tvwH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDx6qQBXoQTbcrLBCC3D_5QU-RAEQbdZ50",
   },
   {
     id: "a-3",
     icon: polkadot,
-    event: "Polkadot Hackathon: Europe Edition",
-    position: "2nd Runner Up in the ink! Smart Contract Category",
+    event: "Compile It | A reverse-coding competition",
+    position: "Runner Up",
     content1:
-      "Built GreenTrust offering a novel solution for obtaining certification in organic farming.",
-    content2: "",
-    content3: "",
+      "A reverse-coding competition where we have to code from just inputs and outputs",
+    content2: "Was able to solve 4/6 questions under timebound",
+    content3: "Partnered with Swanand Mahabal",
     article:
-      "https://www.linkedin.com/posts/mittal-parth_hackathon-winners-web3-activity-7048340759116214272-eJvo?utm_source=share&utm_medium=member_desktop&rcm=ACoAADOa76QB7zljgX8NK4xVSZXi0Z49ETMeC-g",
-    github: "https://github.com/pranav2305/GreenTrust",
-  },
-  {
-    id: "a-4",
-    icon: lightspeed,
-    event: "Warpspeed by Lightspeed",
-    position: "1st Runner Up",
-    content1: "1st Runner Up Overall by Lightspeed among 107 hackers",
-    content2: "Top 3 projects using Replit",
-    content3: "1st Runner Up by Amazon Web Services (AWS)",
-    article: "https://shorturl.at/fhjsT",
-  },
-  {
-    id: "a-5",
-    icon: globalAi,
-    event: "Global AI HackFest 2023",
-    position: "Winner",
-    content1:
-      "1st Position in the Education, Finance & Tech track by AI Planet",
-    content2: "",
-    content3: "",
-    article:
-      "https://www.linkedin.com/posts/mittal-parth_happy-to-share-that-comicifyai-emerged-as-activity-7078790186435833856-88fh",
-  },
-  {
-    id: "a-6",
-    icon: dennisivy,
-    event: "September Hackathon by Dennis Ivy",
-    position: "Winner",
-    content1:
-      "Rated the best portfolio website among 450+ participants across the globe.",
-    content2: "",
-    content3: "",
-    youtube: "https://www.youtube.com/watch?v=X2473En3h_o&t=5278s",
-    project: "https://parthmittal.netlify.app/",
-  },
-  {
-    id: "a-7",
-    icon: manipal,
-    event: "Manipal Hackathon'22",
-    position: "Consolation Prize",
-    content1: "Top 10 among 500+ teams across India",
-    content2:
-      "Developed a cross-platform mobile application to address the problem of social cohesion.",
-    content3: "",
-    article: "https://shorturl.at/exEIQ",
-  },
-  {
-    id: "a-8",
-    icon: icon,
-    event: "ICON Hyperbuild Hackathon",
-    position: "Honorable Mention",
-    content1:
-      "Honorable Mention among 655 participants across the globe in a 3 month-long online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devpost.com/software/green-trust-xj2w6g",
-  },
-  {
-    id: "a-9",
-    icon: ethforall,
-    event: "ETHForAll 2023",
-    position: "Top 3 Superfluid Projects",
-    content1:
-      "Bounty winners among 430 projects in ETHGlobal's largest online hackathon.",
-    content2: "",
-    content3: "",
-    project: "https://devfolio.co/projects/green-trust-ed14",
+      "https://www.linkedin.com/posts/soham-patil-344aa1264_codingcompetition-reversecoding-debugging-activity-7252733250765299713-62uD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDx6qQBXoQTbcrLBCC3D_5QU-RAEQbdZ50",
   },
 ];
 
@@ -265,11 +191,6 @@ export const skills = [
     title: "Programming Languages",
     items: [
       {
-        id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
-      },
-      {
         id: "pl-2",
         icon: SiPython,
         name: "Python",
@@ -278,11 +199,6 @@ export const skills = [
         id: "pl-3",
         icon: SiCplusplus,
         name: "C++",
-      },
-      {
-        id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
       },
       {
         id: "pl-5",
