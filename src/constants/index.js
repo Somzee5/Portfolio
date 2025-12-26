@@ -198,11 +198,6 @@ export const skills = [
     title: "Programming Languages",
     items: [
       {
-        id: "pl-2",
-        icon: SiPython,
-        name: "Python",
-      },
-      {
         id: "pl-3",
         icon: SiCplusplus,
         name: "C++",
@@ -239,8 +234,8 @@ export const skills = [
     items: [
       {
         id: "f-1",
-        icon: SiDjango,
-        name: "Django",
+        icon: FaHardHat,
+        name: "Spring Boot",
       },
       {
         id: "f-2",
@@ -326,6 +321,21 @@ export const skills = [
         id: "t-12",
         icon: SiCloudinary,
         name: "Cloudinary",
+      },
+      {
+        id: "t-13",
+        icon: SiNodedotjs,
+        name: "Apache Log4j2",
+      },
+      {
+        id: "t-14",
+        icon: SiDotnet,
+        name: "Liquibase",
+      },
+      {
+        id: "t-15",
+        icon: SiGraphql,
+        name: "Gateway",
       },
     ],
   },
@@ -498,6 +508,45 @@ export const projects = [
         id: "icon-5",
         icon: SiPostman,
         name: "Postman",
+      },
+    ],
+  },
+  {
+    id: "project-5",
+    title: "Multi-Tenant File Repository Service",
+    github: "https://github.com/Somzee5/File-Repository-Service",
+    image: portfolio,
+    content: "Built a multi-tenant file repository enabling upload, download, search, and metadata-based file management. Implemented tenant-wise storage structure, validation rules, OCR + embeddings generation for PDFs. Added secure ZIP extraction with extension validation.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: DiJava,
+        name: "Java",
+      },
+      {
+        id: "icon-2",
+        icon: FaHardHat,
+        name: "Spring Boot",
+      },
+      {
+        id: "icon-3",
+        icon: SiMysql,
+        name: "PostgreSQL",
+      },
+      {
+        id: "icon-4",
+        icon: SiDotnet,
+        name: "Liquibase",
+      },
+      {
+        id: "icon-5",
+        icon: SiOracle,
+        name: "Hibernate",
+      },
+      {
+        id: "icon-6",
+        icon: SiPostman,
+        name: "Apache Tika",
       },
     ],
   },
