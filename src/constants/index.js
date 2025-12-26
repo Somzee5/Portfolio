@@ -104,7 +104,7 @@ import { VscAzure } from "react-icons/vsc";
 import { BiLogoVisualStudio } from "react-icons/bi";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/17mXDB_i12ANCdMwA7cwBurFplMPpCfkK/view";
+  "https://drive.google.com/file/d/1j8E8YWuoq-2I1u2-XnxM8R2c96uAz2PP/view?usp=sharing";
 export const repoLink = "https://github.com/Somzee5";
 
 export const callToAction = "https://www.linkedin.com/in/soham-patil-344aa1264/";
