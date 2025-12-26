@@ -41,6 +41,7 @@ import cube from "./cube.jpg";
 import volley1 from "./volley1.jpg";
 import volley2 from "./volley2.jpg";
 import cops from "./cops.png";
+import automationedge from "./automationedge.jpg";
 
 export {
   menu,
@@ -86,4 +87,5 @@ export {
   volley1,
   volley2,
   cops,
+  automationedge,
 };

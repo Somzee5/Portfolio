@@ -5,6 +5,7 @@ import styles from "./style";
 import {
   Navbar,
   Hero,
+  Experience,
   Education,
   SkillsAndExperience,
   Hobbies,
@@ -53,6 +54,7 @@ const App = () => {
               className={`bg-primary ${styles.flexCenter} ${styles.paddingX}`}
             >
               <div className={`${styles.boxWidth}`}>
+                <Experience />
                 <SkillsAndExperience />
                 <Education />
               </div>

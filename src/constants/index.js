@@ -36,6 +36,7 @@ import {
   volley1,
   volley2,
   cops,
+  automationedge,
 } from "../assets";
 
 
@@ -112,6 +113,10 @@ export const callToAction = "https://www.linkedin.com/in/soham-patil-344aa1264/"
 
 export const navLinks = [
   {
+    id: "experience",
+    title: "Experience",
+  },
+  {
     id: "skills",
     title: "Skills",
   },
@@ -134,6 +139,20 @@ export const navLinks = [
   {
     id: "contactMe",
     title: "Contact Me",
+  },
+];
+
+// Add your internship experiences here
+export const experienceList = [
+  {
+    id: "experience-1",
+    icon: automationedge,
+    title: "AutomationEdge",
+    position: "SDE Intern",
+    duration: "Oct 2025 - Present",
+    content1: "Contributed to the RestifyDB module (similar to PostgREST) that converts PostgreSQL tables directly into RESTful APIs.",
+    content2: "Implemented an audit logging system using AOP compatible with any application integrating RestifyDB.",
+    content3: "Technologies & Skills: Java, Spring Boot, PostgREST, AOP, Bitbucket, Gradle, Liquibase.",
   },
 ];
 

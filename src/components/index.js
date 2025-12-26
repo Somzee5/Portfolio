@@ -2,6 +2,7 @@
 // exports them from one place to make code more readable
 import Navbar from "./Navbar";
 import Hero from "./Hero";
+import Experience from "./Experience";
 import Education from "./Education";
 import SkillsAndExperience from "./SkillsAndExperience";
 import Projects from "./Projects";
@@ -18,6 +19,7 @@ import Achievements from "./Achievements";
 export {
     Navbar,
     Hero,
+    Experience,
     Education,
     SkillsAndExperience,
     Projects,
