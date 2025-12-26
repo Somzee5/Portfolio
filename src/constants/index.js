@@ -35,6 +35,7 @@ import {
   cube,
   volley1,
   volley2,
+  cops,
 } from "../assets";
 
 
@@ -170,6 +171,18 @@ export const achievements = [
   },
   {
     id: "a-2",
+    icon: cops,
+    event: "Sangli Cops Hackathon | Women Safety Innovation Challenge",
+    position: "Runner Up",
+    content1: "Developed innovative solutions for women's safety and security",
+    content2: "Built a comprehensive women's safety application with real-time alert system",
+    content3: "Integrated location tracking and emergency contact notification features",
+    article:
+      "https://www.linkedin.com/posts/paraagyadav_hackathon-womensafety-innovation-ugcPost-7378753839405019136-Z92V?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEDx6qQBXoQTbcrLBCC3D_5QU-RAEQbdZ50",
+    project: "https://github.com/Somzee5/Durga"
+  },
+  {
+    id: "a-3",
     icon: ethglobal,
     event: "Codecrush | A competitive coding competition at TechFusion-2024",
     position: "Winner",
@@ -179,7 +192,7 @@ export const achievements = [
       "https://www.linkedin.com/posts/soham-patil-344aa1264_techfusion2k24-problemsolving-hackerearth-activity-7251272290884050944-tvwH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDx6qQBXoQTbcrLBCC3D_5QU-RAEQbdZ50",
   },
   {
-    id: "a-3",
+    id: "a-4",
     icon: polkadot,
     event: "Compile It | A reverse-coding competition",
     position: "Runner Up",
@@ -190,6 +203,7 @@ export const achievements = [
     article:
       "https://www.linkedin.com/posts/soham-patil-344aa1264_codingcompetition-reversecoding-debugging-activity-7252733250765299713-62uD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEDx6qQBXoQTbcrLBCC3D_5QU-RAEQbdZ50",
   },
+  
 ];
 
 // Add your software development skills here for example - programming languages, frameworks etc.

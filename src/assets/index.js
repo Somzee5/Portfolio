@@ -40,6 +40,7 @@ import wce from "./wce.jpg";
 import cube from "./cube.jpg";
 import volley1 from "./volley1.jpg";
 import volley2 from "./volley2.jpg";
+import cops from "./cops.png";
 
 export {
   menu,
@@ -84,4 +85,5 @@ export {
   cube,
   volley1,
   volley2,
+  cops,
 };
